@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif
+}
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    color: white;
+    background-color: red;
+   
+}
+
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #ecb506;
+    border-color: #eab511;
+}
+
+.callout-container{
+    height: 100vh;
+
+    background: url("../images/whiskey.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotes-container {
+
+}
+
+.features-container {
+
+}
+/* page-headers */
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/*block-dividers*/
+.block-divider {
+    border: 0;
+    height: 5px;
+    width: 100hv;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--grey {
+    background-color: grey;
+}
+
+.block-divider--red {
+    background-color: red;
+}
+
+/* content-containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px:
+}
+
+/* Navbar */
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: bold
+}
+
+.navbar .navbar-nav a{
+    font-weight: bold;
+    
+}
+/*jumbotron*/
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 30px 0;
+    }
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* buttons */
+.btn-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+.btn-red {
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:active:focus {
+    background-color: white;
+    color: red;
+
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px; 
+    color: red;
+}
